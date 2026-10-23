@@ -4,8 +4,11 @@ Repositori ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuli
 Identitas Mahasiswa
 
 Nama : Doni Wardana
+
 NIM : 241011402688
+
 Kelas : Reg CS
+
 Random State : 88
 
 Ringkasan Hasil & Evaluasi
