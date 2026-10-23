@@ -1,10 +1,10 @@
-# 🤖 UTS Machine Learning: Linear Regression & Logistic Regression
+#  UTS Machine Learning: Linear Regression & Logistic Regression
 
 Repositori ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Machine Learning[cite: 2]. Seluruh model dan metrik evaluasi diimplementasikan secara mandiri menggunakan NumPy tanpa menggunakan pustaka scikit-learn pada bagian utama model[cite: 2].
 
 ---
 
-## 👤 Identitas Mahasiswa
+##  Identitas Mahasiswa
 * **Nama:** Doni Wardana[cite: 2]
 * **NIM:** `241011402688`[cite: 2]
 * **Kelas:** Reg CS[cite: 2]
@@ -12,7 +12,7 @@ Repositori ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuli
 
 ---
 
-## 📊 Ringkasan Hasil & Evaluasi
+##  Ringkasan Hasil & Evaluasi
 
 ### Bagian A – Linear Regression (`Ads_Data.csv`)
 * **Metode Pelatihan:** Normal Equation & Gradient Descent[cite: 2]
