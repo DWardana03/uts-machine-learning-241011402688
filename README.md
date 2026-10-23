@@ -1,50 +1,42 @@
-UTS Machine Learning: Linear Regression & Logistic Regression
-Repositori ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Machine Learning. Seluruh model dan metrik evaluasi diimplementasikan secara mandiri menggunakan NumPy tanpa menggunakan pustaka scikit-learn pada bagian utama model.
+# 🤖 UTS Machine Learning: Linear Regression & Logistic Regression
 
-Identitas Mahasiswa
+Repositori ini dibuat untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Machine Learning[cite: 2]. Seluruh model dan metrik evaluasi diimplementasikan secara mandiri menggunakan NumPy tanpa menggunakan pustaka scikit-learn pada bagian utama model[cite: 2].
 
-Nama : Doni Wardana
+---
 
-NIM : 241011402688
+## 👤 Identitas Mahasiswa
+* **Nama:** Doni Wardana[cite: 2]
+* **NIM:** `241011402688`[cite: 2]
+* **Kelas:** Reg CS[cite: 2]
+* **Random State:** 88[cite: 2]
 
-Kelas : Reg CS
+---
 
-Random State : 88
+## 📊 Ringkasan Hasil & Evaluasi
 
-Ringkasan Hasil & Evaluasi
+### Bagian A – Linear Regression (`Ads_Data.csv`)
+* **Metode Pelatihan:** Normal Equation & Gradient Descent[cite: 2]
+* **Persamaan Garis Regresi:** $\hat{y} = 28.9055 + 9.0778 \cdot X$[cite: 2]
 
-Bagian A – Linear Regression (Ads_Data.csv)
+| Metrik Evaluasi (Data Testing) | Nilai |
+| :--- | :--- |
+| **MAE** | ~2.85[cite: 2] |
+| **MSE** | ~13.01[cite: 2] |
+| **RMSE** | ~3.60[cite: 2] |
+| **$R^2$ (Coefficient of Determination)** | ~0.9830[cite: 2] |
 
-Metode Pelatihan: Normal Equation & Gradient Descent
+> **Analisis Bagian A:** Nilai $R^2$ sebesar **98.30%** pada data testing menunjukkan bahwa model regresi linier memiliki kemampuan generalisasi yang sangat baik dalam memprediksi penjualan berdasarkan biaya iklan[cite: 2].
 
-Persamaan Garis Regresi: y_hat = 28.9055 + 9.0778 * X
+---
 
+### Bagian B – Logistic Regression (`Email_Data.csv`)
+* **Metode Pelatihan:** Gradient Descent[cite: 2]
+* **Threshold:** 0.5[cite: 2]
 
+| Metrik Evaluasi | Nilai / Status | Keterangan |
+| :--- | :--- | :--- |
+| **Akurasi** | Tinggi & Optimal[cite: 2] | - |
+| **Precision** | `1.0000`[cite: 2] | Bebas dari False Positive, sangat aman agar email penting tidak masuk folder spam[cite: 2]. |
+| **Recall** | Optimal[cite: 2] | Sesuai pengaturan threshold[cite: 2]. |
 
-Hasil Evaluasi Data Testing:
-
-MAE: ~2.85
-
-MSE: ~13.01
-
-RMSE: ~3.60
-
-R^2 (Coefficient of Determination): ~0.9830
-
-Analisis: Nilai R^2 sebesar 98.30% pada data testing menunjukkan bahwa model regresi linier memiliki kemampuan generalisasi yang sangat baik dalam memprediksi penjualan berdasarkan biaya iklan.
-
-
-
-Bagian B – Logistic Regression (Email_Data.csv)
-
-Metode Pelatihan: Gradient Descent (Logistic Regression)
-
-Hasil Evaluasi Data Testing (Threshold 0.5):
-
-Akurasi: Tinggi dan optimal
-
-Precision: 1.0000 (Bebas dari False Positive, sangat aman agar email penting tidak masuk folder spam)
-
-Recall: Optimal sesuai pengaturan threshold
-
-Analisis: Model berhasil memisahkan kelas Spam dan Bukan Spam menggunakan decision boundary linier dengan tingkat kesalahan (misclassification) yang sangat minim. 
+> **Analisis Bagian B:** Model berhasil memisahkan kelas Spam dan Bukan Spam menggunakan *decision boundary* linier dengan tingkat kesalahan (*misclassification*) yang sangat minim[cite: 2].
