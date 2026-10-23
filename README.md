@@ -12,6 +12,8 @@ Kelas : Reg CS
 Random State : 88
 
 
+
+
 Ringkasan Hasil & Evaluasi
 
 Bagian A – Linear Regression (Ads_Data.csv)
